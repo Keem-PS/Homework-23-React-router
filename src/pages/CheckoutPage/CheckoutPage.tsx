@@ -1,5 +1,4 @@
-import React from 'react';
-import { Item } from '../components/data';  // items array
+import { Item } from '../../components/data';
 
 interface CheckoutPageProps {
   cart: Item | null;

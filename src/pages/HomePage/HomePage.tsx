@@ -1,6 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import { items } from '../components/data';  // items array from above
+import { items } from '../../components/data';  // items array from above
 
 function HomePage() {
   return (

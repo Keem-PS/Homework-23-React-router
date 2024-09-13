@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import ProductPage from './pages/ProductPage';
-import CheckoutPage from './pages/CheckoutPage';
-import { Item } from './components/data';  // นำเข้า Item จาก data.ts
+import { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage/HomePage';
+import ProductPage from './pages/ProductPage/ProductPage';
+import CheckoutPage from './pages/CheckoutPage/CheckoutPage';
+import { Item } from './components/data';
 
 function App() {
-  
+
   const [cart, setCart] = useState<Item | null>(null);
   const addToCart = (item: Item) => {
     setCart(item);

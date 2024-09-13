@@ -1,6 +1,5 @@
-import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { items, Item } from '../components/data';  // นำเข้า Item จาก data.ts
+import { items, Item } from '../../components/data';  // นำเข้า Item จาก data.ts
 
 interface ProductPageProps {
   addToCart: (item: Item) => void;
