@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage/HomePage';
-import ProductPage from './pages/ProductPage/ProductPage';
-import CheckoutPage from './pages/CheckoutPage/CheckoutPage';
+import HomePage from './pages/HomePage';
+import ProductPage from './pages/ProductPage';
+import CheckoutPage from './pages/CheckoutPage';
 import { Item } from './components/data';
 
 function App() {
